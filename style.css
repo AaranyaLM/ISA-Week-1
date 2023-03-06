@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1603715749723-240c88df18b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    height: 90%; 
+    background-size: cover;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+}
+.logo{
+    letter-spacing: -0.8em;      
+}
+.footer{
+    text-align: center;
+    margin-top: 200px;
+    width: 100%;
+}
+.footer h4{
+    color: white;
+    letter-spacing: 5px;
+}
+.fa{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 20px;
+    margin-bottom: 50px;
+    transition:all 0.4s;
+}
+.fa.fa-instagram:hover {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.fa.fa-linkedin:hover{
+    color:#0A66C2;
+}
+.links input{
+    background: transparent;
+    padding: 13px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    letter-spacing: 0.1em;
+    margin-left: 160px;
+}
+
+
+
+/*home*/
+.logo-body h1{
+    color: rgba(255, 255, 255, 0.836);
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: -0.8em;
+    margin-top: 100px;
+    position: relative;
+    right: 20px;
+    
+}
+.logo-paragraph{
+    letter-spacing: 0.5em;
+    text-align: center  ;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*About*/
+.about-heading h1{
+    text-align: center;
+    letter-spacing: 0.3em;
+}
+
+.about-paragraph{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    letter-spacing: 0.1em;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+/*Service*/
+.service-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    margin: 20px;
+}
+.service-container p{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 14px;
+}
+.service-heading{
+    text-align: center;
+    letter-spacing: 0.3em;
+}
+.service-container h2{
+    letter-spacing: 0.2em;
+    font-weight: lighter;
+}
+.service-one{
+    padding: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.082);
+    margin: 20px;
+}
+.service-two{
+    padding: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.082);
+    margin: 20px;
+}
+.service-three{
+    padding: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.082);
+    margin: 20px;   
+}
+
+/*Contact*/
+form {
+    color: black;
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+
+button {
+    background-color: #05c46b;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
